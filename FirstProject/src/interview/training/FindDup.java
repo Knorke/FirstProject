@@ -24,6 +24,7 @@ public class FindDup {
 				uniques.remove(str);
 			} else uniques.add(str);
 		}
+		System.out.println("---Output---");
 		System.out.println("Unique words: " + uniques);
 		System.out.println("Duplicates: " + dups);
 	}
